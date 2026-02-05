@@ -80,7 +80,7 @@ const About = () => {
             </p>
 
             <a
-              href="ParagDakhaneResume.pdf"
+              href="ParagDakhane_FullStack_SDE.pdf"
               download
               className="flex items-center gap-2 px-6 py-2 rounded-xl border bg-black border-white/40 backdrop-blur-sm hover:scale-105 transition-all duration-300"
             >

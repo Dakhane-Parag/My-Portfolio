@@ -6,23 +6,21 @@ export function Frameworks() {
     "firebase",
     "mongodb",
     "mysql",
-    "docker",
-    "github",
     "css3",
-    "git",
     "html5",
     "javascript",
     "react",
     "tailwindcss",
-    "kubernetes"
   ];
   const skills2 = [
-    "pandas",
-    "numpy",
     "python",
-    "matplot",
-    "jupyter",
-    "scikit"
+    "fastapi",
+    "docker",
+    "aws1",
+    "git",
+    "github",
+    "postman"
+
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
