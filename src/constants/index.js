@@ -1,36 +1,71 @@
 export const myProjects = [
   {
-  id: 1,
-  title: "Wrap-pay - Multi Wallet Crypto Payment SDK ",
-  description:
-    "A cross-chain crypto payment platform that enables seamless multi-wallet transactions across global e-commerce platforms.",
-  subDescription: [
-    "Developing a cross-chain payment SDK supporting multiple blockchain networks and wallet integrations.",
-    "Implementing secure APIs for on-chain transactions, wallet authentication, and instant crypto-to-fiat conversions.",
-    "Designing to integrate seamlessly into merchant websites and apps, enabling businesses to accept cross-chain crypto payments with minimal setup.",
-  ],
-  href: "",
-  logo: "",
-  image: "/assets/projects/demo.png",
-  tags: [
-    { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
-    { id: 2, name: "Firebase", path: "/assets/logos/firebase.svg" },
-    { id: 3, name: "Solidity", path: "/assets/logos/solidity.svg" },
-  ],
-},
+    id: 1,
+    title: "WealthWise - AI Semantic Search for Personal Finance",
+    description:
+      "An AI-powered semantic search platform that helps users understand personal finance topics like investing, taxes, budgeting, and savings through natural language queries.",
+    subDescription: [
+      "Allows users to ask finance-related questions in plain English and get context-aware answers.",
+      "Uses semantic retrieval to provide accurate, relevant information instead of keyword-based search.",
+    ],
+    href: "https://wealthwise-beta.vercel.app/",
+    logo: "",
+    image: "/assets/projects/wealthwise.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
+      { id: 2, name: "FastAPI", path: "/assets/logos/fastapi.svg" },
+      { id: 3, name: "Javascript", path: "/assets/logos/javascript.svg" },
+    ],
+  },
 
   {
     id: 2,
+    title: "FileVault - Secure File Storage and Sharing",
+    description:
+      "A secure cloud-based platform for uploading, storing, and sharing files with strong access control and encryption.",
+    subDescription: [
+      "Enables users to safely store files and share them with controlled permissions.",
+      "Focuses on privacy, security, and ease of access across devices.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/filevault.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Express", path: "/assets/logos/express.svg" },
+      { id: 3, name: "MongoDB", path: "/assets/logos/docker.svg" },
+    ],
+  },
+
+  {
+    id: 3,
+    title: "Wrap-Pay - Multi Wallet Crypto Payment SDK",
+    description:
+      "A crypto payment SDK that enables applications to accept payments from multiple wallets across different blockchain networks.",
+    subDescription: [
+      "Simplifies crypto payments by supporting multiple wallets through a single integration.",
+      "Designed for seamless usage in e-commerce and decentralized applications.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/demo.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Express", path: "/assets/logos/express.svg" },
+      { id: 3, name: "Solidity", path: "/assets/logos/solidity.svg" },
+    ],
+  },
+
+  {
+    id: 4,
     title: "ChatVerse - Real-Time Chat Application",
     description:
-      "A real-time messaging platform enabling instant chat, media sharing, and user presence detection.",
+      "A real-time messaging platform that allows users to communicate instantly with live status and message history.",
     subDescription: [
-      "Developed real-time communication using Socket.io with online/offline status.",
-      "Implemented JWT authentication and secure user onboarding.",
-      "Added features like unread message tracking, and message history.",
-      "Designed a modern, responsive UI using React and TailwindCSS.",
+      "Supports instant messaging with real-time updates and online presence.",
+      "Provides a smooth and modern chat experience across devices.",
     ],
-    href: "https://github.com/Dakhane-Parag/ChatVerse-Real-time-chat-application",
+    href: "https://chatverse-3vpz.onrender.com/",
     logo: "",
     image: "/assets/projects/chatverse.png",
     tags: [
@@ -41,15 +76,13 @@ export const myProjects = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "AI Resume Analyser",
     description:
-      "An AI-powered tool that analyzes resumes, evaluates skills, and provides improvement suggestions using LLMs.",
+      "An AI-based resume analysis tool that evaluates resumes and provides insights on skills, structure, and overall quality.",
     subDescription: [
-      "Integrated OpenAI API to extract key skills, experience gaps, and ATS compatibility.",
-      "Built a clean, interactive frontend using React and TailwindCSS.",
-      "Designed a scoring system to evaluate resume clarity, formatting, and technical strength.",
-      "Implemented secure user authentication and stored user history using SQLite.",
+      "Analyzes resumes to highlight strengths, gaps, and improvement areas.",
+      "Helps users optimize resumes for better readability and ATS compatibility.",
     ],
     href: "",
     logo: "",
@@ -62,15 +95,13 @@ export const myProjects = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "3D Apple iPhone Showcase Website",
     description:
-      "A visually immersive 3D product showcase experience for Apple iPhones built using WebGL technologies.",
+      "A visually immersive 3D product showcase website that allows users to explore iPhones interactively in a web environment.",
     subDescription: [
-      "Created interactive 3D models using Three.js with smooth animations and transitions.",
-      "Developed customizable iPhone color and rotation controls for better UX.",
-      "Implemented lightning-fast rendering using WebGL optimization techniques.",
-      "Designed a modern, Apple-inspired interface using TailwindCSS and GSAP.",
+      "Displays realistic 3D models with smooth animations and interactions.",
+      "Enhances product visualization through an engaging, Apple-style experience.",
     ],
     href: "https://apple-direct.vercel.app/",
     logo: "",
@@ -83,16 +114,15 @@ export const myProjects = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "Ivy-Villas - Villa Booking Website",
     description:
-      "A modern booking platform for luxury villas with real-time availability and seamless user experience.",
+      "A modern villa booking website designed to showcase luxury properties and simplify the booking experience.",
     subDescription: [
-      "Built responsive landing pages and booking interfaces using HTML5 and CSS3.",
-      "Designed a visually appealing UI aligned with premium villa branding.",
-      "Optimized performance and SEO for higher search visibility.",
+      "Allows users to browse villas with detailed visuals and information.",
+      "Focuses on a clean, premium design for a smooth user journey.",
     ],
-    href: "",
+    href: "https://ivy-villas.com/",
     logo: "",
     image: "/assets/projects/ivy.png",
     tags: [
@@ -103,17 +133,15 @@ export const myProjects = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "My Portfolio Website",
     description:
-      "A modern developer portfolio built with animations, 3D elements, and lightning-fast performance.",
+      "A personal developer portfolio showcasing projects, skills, and experience with modern visuals and animations.",
     subDescription: [
-      "Designed and developed a fully responsive UI with modern animations.",
-      "Added interactive sections such as project showcases, experience timeline, and contact form.",
-      "Optimized performance using Vite.js and code-splitting.",
-      "Enhanced branding with custom visuals, particles, and smooth transitions.",
+      "Highlights projects and technical expertise in an interactive format.",
+      "Designed to create a strong personal brand with smooth animations and 3D elements.",
     ],
-    href: "",
+    href: "https://www.paragfolio.in/",
     logo: "",
     image: "/assets/projects/portfolio.png",
     tags: [
@@ -123,6 +151,7 @@ export const myProjects = [
     ],
   },
 ];
+
 
 export const mySocials = [
   {
