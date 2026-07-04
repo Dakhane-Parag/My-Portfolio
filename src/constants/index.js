@@ -1,12 +1,48 @@
 export const myProjects = [
   {
     id: 1,
-    title: "WealthWise - AI Semantic Search for Personal Finance",
+    title: "CodeSage AI - Multi-Agent GitHub Code Review Platform",
     description:
-      "An AI-powered semantic search platform that helps users understand personal finance topics like investing, taxes, budgeting, and savings through natural language queries.",
+      "An event-driven FastAPI backend that ingests GitHub webhooks to automatically extract pull request data and orchestrate automated code reviews with zero human intervention.",
     subDescription: [
-      "Allows users to ask finance-related questions in plain English and get context-aware answers.",
-      "Uses semantic retrieval to provide accurate, relevant information instead of keyword-based search.",
+      "Architected a multi-agent AI system using LangGraph and Google Gemini, executing 4 specialized agents concurrently.",
+      "Implemented a NoSQL persistence layer using MongoDB to track review history and post aggregated reports directly to PRs.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/demo.png",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "FastAPI", path: "/assets/logos/fastapi.svg" },
+      { id: 3, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+    ],
+  },
+  {
+    id: 2,
+    title: "BrandFlow AI - Social Media Content Automation Platform",
+    description:
+      "A responsive web application integrating a MongoDB Atlas database and the Meta Graph API to securely manage and publish marketing content directly to Instagram.",
+    subDescription: [
+      "Engineered a generative AI pipeline utilizing Google Gemini for dynamic copywriting and PollinationsAI for image generation.",
+      "Architected a production-grade deployment by serving the frontend globally via Vercel and configuring an AWS EC2 backend.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/demo.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
+      { id: 2, name: "FastAPI", path: "/assets/logos/fastapi.svg" },
+      { id: 3, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+    ],
+  },
+  {
+    id: 3,
+    title: "WealthWise - RAG-Based AI Financial Retrieval System",
+    description:
+      "A production-grade RAG pipeline using FastAPI and FAISS that performs high-dimensional vector retrieval over financial documents, improving semantic search accuracy.",
+    subDescription: [
+      "Reduced average query latency by 60% through pre-computed embeddings and index caching.",
+      "Built a React frontend delivering source-cited, context-grounded responses.",
     ],
     href: "https://wealthwise-beta.vercel.app/",
     logo: "",
@@ -17,9 +53,8 @@ export const myProjects = [
       { id: 3, name: "Javascript", path: "/assets/logos/javascript.svg" },
     ],
   },
-
   {
-    id: 2,
+    id: 4,
     title: "FileVault - Secure File Storage and Sharing",
     description:
       "A secure cloud-based platform for uploading, storing, and sharing files with strong access control and encryption.",
@@ -36,9 +71,8 @@ export const myProjects = [
       { id: 3, name: "MongoDB", path: "/assets/logos/docker.svg" },
     ],
   },
-
   {
-    id: 3,
+    id: 5,
     title: "Wrap-Pay - Multi Wallet Crypto Payment SDK",
     description:
       "A crypto payment SDK that enables applications to accept payments from multiple wallets across different blockchain networks.",
@@ -55,9 +89,8 @@ export const myProjects = [
       { id: 3, name: "Solidity", path: "/assets/logos/solidity.svg" },
     ],
   },
-
   {
-    id: 4,
+    id: 6,
     title: "ChatVerse - Real-Time Chat Application",
     description:
       "A real-time messaging platform that allows users to communicate instantly with live status and message history.",
@@ -72,82 +105,6 @@ export const myProjects = [
       { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
       { id: 2, name: "Express.js", path: "/assets/logos/express.svg" },
       { id: 3, name: "Mongo DB", path: "/assets/logos/mongodb.svg" },
-    ],
-  },
-
-  {
-    id: 5,
-    title: "AI Resume Analyser",
-    description:
-      "An AI-based resume analysis tool that evaluates resumes and provides insights on skills, structure, and overall quality.",
-    subDescription: [
-      "Analyzes resumes to highlight strengths, gaps, and improvement areas.",
-      "Helps users optimize resumes for better readability and ATS compatibility.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/demo.png",
-    tags: [
-      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
-      { id: 2, name: "React", path: "/assets/logos/react.svg" },
-      { id: 4, name: "Streamlit", path: "/assets/logos/streamlit.svg" },
-    ],
-  },
-
-  {
-    id: 6,
-    title: "3D Apple iPhone Showcase Website",
-    description:
-      "A visually immersive 3D product showcase website that allows users to explore iPhones interactively in a web environment.",
-    subDescription: [
-      "Displays realistic 3D models with smooth animations and interactions.",
-      "Enhances product visualization through an engaging, Apple-style experience.",
-    ],
-    href: "https://apple-direct.vercel.app/",
-    logo: "",
-    image: "/assets/projects/appledirect.png",
-    tags: [
-      { id: 1, name: "Three.js", path: "/assets/logos/threejs.svg" },
-      { id: 2, name: "React.js", path: "/assets/logos/react.svg" },
-      { id: 3, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
-    ],
-  },
-
-  {
-    id: 7,
-    title: "Ivy-Villas - Villa Booking Website",
-    description:
-      "A modern villa booking website designed to showcase luxury properties and simplify the booking experience.",
-    subDescription: [
-      "Allows users to browse villas with detailed visuals and information.",
-      "Focuses on a clean, premium design for a smooth user journey.",
-    ],
-    href: "https://ivy-villas.com/",
-    logo: "",
-    image: "/assets/projects/ivy.png",
-    tags: [
-      { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
-      { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
-      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-    ],
-  },
-
-  {
-    id: 8,
-    title: "My Portfolio Website",
-    description:
-      "A personal developer portfolio showcasing projects, skills, and experience with modern visuals and animations.",
-    subDescription: [
-      "Highlights projects and technical expertise in an interactive format.",
-      "Designed to create a strong personal brand with smooth animations and 3D elements.",
-    ],
-    href: "https://www.paragfolio.in/",
-    logo: "",
-    image: "/assets/projects/portfolio.png",
-    tags: [
-      { id: 1, name: "React.js", path: "/assets/logos/react.svg" },
-      { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
-      { id: 3, name: "Three.js", path: "/assets/logos/threejs.svg" },
     ],
   },
 ];
