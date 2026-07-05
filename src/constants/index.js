@@ -48,7 +48,7 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/wealthwise.png",
     tags: [
-      { id: 1, name: "", path: "/assets/logos/react.svg" },
+      { id: 1, name: "Hugging Face", path: "/assets/logos/hugface.svg" },
       { id: 2, name: "FastAPI", path: "/assets/logos/fastapi.svg" },
       { id: 3, name: "Javascript", path: "/assets/logos/javascript.svg" },
     ],
