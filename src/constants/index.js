@@ -12,7 +12,7 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/demo.png",
     tags: [
-      { id: 1, name: "LangGraph", path: "/assets/logos/LangGraph.svg" },
+      { id: 1, name: "LangGraph", path: "/assets/logos/langGraph.svg" },
       { id: 2, name: "FastAPI", path: "/assets/logos/fastapi.svg" },
       { id: 3, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
     ],
