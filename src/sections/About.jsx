@@ -1,10 +1,8 @@
 import { useRef } from "react";
-import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
-  const grid2Container = useRef();
   return (
     <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
@@ -18,46 +16,25 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Parag Dakhane</p>
             <p className="subtext">
-              Over the last 1.5 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              I engineer autonomous AI agents and vector-driven search systems so users don't have to think as hard.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
-        <div className="grid-default-color grid-2">
-          <div
-            ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
-          >
-            <p className="flex items-end text-5xl text-gray-500">
-              Experience In fields
+        <div className="grid-default-color grid-2 relative overflow-hidden flex flex-col justify-center">
+          <img src="assets/grid.png" alt="grid" className="w-full h-full object-cover absolute inset-0 opacity-[0.15]" />
+          <div className="flex flex-col items-center justify-center w-full h-full relative z-10 p-6">
+            <p className="headtext text-center mb-6">
+              Core Expertise
             </p>
-            <Card
-              style={{ rotate: "35deg", top: "30%", left: "10%" }}
-              text="Data Science"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="DevOps and Clouds"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "30deg", bottom: "30%", left: "70%" }}
-              text="Blockchain Tech"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "55%", left: "0%" }}
-              text="Web Development"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "10%", left: "38%" }}
-              text="Agile Methodology"
-              containerRef={grid2Container}
-            />
+            <div className="flex flex-wrap gap-4 justify-center">
+              {['AI Agents', 'RAG Pipelines', 'FastAPI Backend', 'React Web Apps', 'Vector DBs', 'Cloud Deployments'].map((skill, i) => (
+                <div key={i} className="px-5 py-2.5 bg-black/40 border border-white/20 rounded-xl text-sm font-medium text-gray-300 backdrop-blur-md hover:border-white/50 hover:text-white transition-all hover:-translate-y-1 cursor-pointer">
+                  {skill}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
         {/* Grid 3 */}
@@ -65,7 +42,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in Pune, India (IST), and open to work worldwide.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -80,7 +57,7 @@ const About = () => {
             </p>
 
             <a
-              href="ParagDakhane_FullStack_SDE.pdf"
+              href="ParagDakhaneResume_AI.pdf"
               download
               className="flex items-center gap-2 px-6 py-2 rounded-xl border bg-black border-white/40 backdrop-blur-sm hover:scale-105 transition-all duration-300"
             >
@@ -106,10 +83,9 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
+            <p className="headText">Tech Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools that
-              allow me to build robust and scalable applications
+              I specialize in modern frameworks like React and FastAPI, along with GenAI tools and cloud infrastructure to build robust, scalable AI applications.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
