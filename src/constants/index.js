@@ -134,11 +134,10 @@ export const experiences = [
     job: "BlueStock Fintech",
     date: "June 2025 - August 2025",
     contents: [
-      "Assigned to build the IPO page module completely from scratch, including layout, data structure, and component logic.",
-      "Developed basic APIs to handle IPO data retrieval and server-side request processing.",
-      "Performed basic web scraping to gather IPO information from trusted financial sources.",
+      "Designed robust account recovery modules, including a secure ’forgot password’ pipeline, ensuring seamless user experience while maintaining enterprise-grade data protection standards.",
+      "Engineered high-security authentication flows using FastAPI, implementing HttpOnly cookie-based session management and Two-Factor Authentication (2FA) to mitigate XSS vulnerabilities in a fintech environment.",
+      "Worked on the LAMA Service, a Python backend for infrastructure monitoring, featuring metric compression, REST API integration and automated session management.",
       "Collaborated with senior developers to ensure clean data flow, accuracy, and scalability.",
-      "Delivered a maintainable IPO module ready for integration into the main platform."
     ],
   },
   {
